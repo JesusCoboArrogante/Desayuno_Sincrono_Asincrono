@@ -1,0 +1,7 @@
+﻿services:
+  desayuno:
+    image: desayuno
+    build:
+      context: .
+      dockerfile: Desayuno/Dockerfile
+
